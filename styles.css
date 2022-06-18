@@ -1,0 +1,40 @@
+body{
+    flex-direction: column;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.main{
+
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    align-items: center;
+    width: 280px;
+    height: 440px;
+padding-top: 10px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.image{
+width: 250px;
+border-radius: 10px;
+}
+.text{
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+
+}
+
+.skill{
+text-align: center;
+color: hsl(218, 44%, 22%);
+}
